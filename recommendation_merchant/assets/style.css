@@ -714,7 +714,7 @@ header {
   height: 0;
   font-size: 1rem;
   /* text-align: justify; */
-  width: 780px;
+  width: 700px;
   overflow: hidden;
   transition: 0.5s;
 }
