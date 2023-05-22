@@ -82,11 +82,59 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 // for changing imgs on text
-function changeImage(imgchanger){
+function changeImage(index,imgchanger){
   document.getElementById('slider').src = imgchanger;
-  if(imgchanger='./assets/imgs/social_imgs/1.png')
-  {
-    document.getElementById('instaLogo').style.opacity=1;
-  }
+  if(index == 1 ){
+    document.getElementById('firstImgcont').classList.remove('inactive');
+    document.getElementById('firstImgcont').classList.add('active');
 
+    document.getElementById('secondImgcont').classList.remove('active');
+    document.getElementById('secondImgcont').classList.add('inactive');
+    
+    document.getElementById('thirdImgcont').classList.remove('active');
+    document.getElementById('thirdImgcont').classList.add('inactive');
+
+    document.getElementById('fourthImgcont').classList.remove('active');
+    document.getElementById('fourthImgcont').classList.add('inactive');
+  }
+  else if(index == 2){
+    document.getElementById('secondImgcont').classList.remove('inactive');
+    document.getElementById('secondImgcont').classList.add('active');
+
+    document.getElementById('firstImgcont').classList.remove('active');
+    document.getElementById('firstImgcont').classList.add('inactive');
+    
+    document.getElementById('thirdImgcont').classList.remove('active');
+    document.getElementById('thirdImgcont').classList.add('inactive');
+
+    document.getElementById('fourthImgcont').classList.remove('active');
+    document.getElementById('fourthImgcont').classList.add('inactive');
+  }
+  else if(index == 3){
+    document.getElementById('thirdImgcont').classList.remove('inactive');
+    document.getElementById('thirdImgcont').classList.add('active');
+
+    document.getElementById('firstImgcont').classList.remove('active');
+    document.getElementById('firstImgcont').classList.add('inactive');
+    
+    document.getElementById('secondImgcont').classList.remove('active');
+    document.getElementById('secondImgcont').classList.add('inactive');
+
+    document.getElementById('fourthImgcont').classList.remove('active');
+    document.getElementById('fourthImgcont').classList.add('inactive');
+  }
+  else if(index == 4){
+    document.getElementById('fourthImgcont').classList.remove('inactive');
+    document.getElementById('fourthImgcont').classList.add('active');
+
+    document.getElementById('firstImgcont').classList.remove('active');
+    document.getElementById('firstImgcont').classList.add('inactive');
+    
+    document.getElementById('secondImgcont').classList.remove('active');
+    document.getElementById('secondImgcont').classList.add('inactive');
+
+    document.getElementById('thirdImgcont').classList.remove('active');
+    document.getElementById('thirdImgcont').classList.add('inactive');
+  }
+ 
 }

@@ -278,7 +278,7 @@ header {
   line-height: 50px;
   color: var(--blackColor);
   text-align: center;
-  padding: 4rem 0 0 0 ;
+  padding: 4rem 2rem 0 2rem;
   margin: 0;
 }
 
@@ -390,6 +390,7 @@ header {
   font-weight: 400;
   font-size: 1.3rem;
   line-height: 155.52%;
+  margin: 0;
 }
 
 .ques {

@@ -580,21 +580,21 @@
                         </div>
 
                         <div class="imgs_sociallinks">
-                            <a class="social_hover" onmouseenter="changeImage('./assets/imgs/social_imgs/1.png')">
+                            <a id="firstImgcont" class="social_hover active" onmouseover="changeImage(1,'./assets/imgs/social_imgs/1.png')">
                                 <img src="./assets/imgs/social_icons/instagram 1.png" alt="" class="SocialLogo"
-                                    id="instaLogo">
+                                  >
                             </a>
-                            <a class="social_hover" onmouseenter="changeImage('./assets/imgs/social_imgs/4.png')">
+                            <a id="secondImgcont" class="social_hover inactive" onmouseover="changeImage(2,'./assets/imgs/social_imgs/4.png')">
                                 <img src="./assets/imgs/social_icons/facebook 1.png" alt="" class="SocialLogo"
-                                    id="fbLogo">
+                                    >
                             </a>
-                            <a class="social_hover" onmouseenter="changeImage('./assets/imgs/social_imgs/2.png')">
+                            <a id="thirdImgcont" class="social_hover inactive" onmouseover="changeImage(3,'./assets/imgs/social_imgs/2.png')">
                                 <img src="./assets/imgs/social_icons/facebook 3.png" alt="" class="SocialLogo"
-                                    id="waLogo">
+                                    >
                             </a>
-                            <a class="social_hover" onmouseenter="changeImage('./assets/imgs/social_imgs/3.png')">
+                            <a id="fourthImgcont" class="social_hover inactive" onmouseover="changeImage(4,'./assets/imgs/social_imgs/3.png')">
                                 <img src="./assets/imgs/social_icons/facebook 2.png" alt="" class="SocialLogo"
-                                    id="msgLogo">
+                                   >
                             </a>
 
                         </div>
@@ -653,7 +653,7 @@
                 <div class="content1 d-flex justify-content-between align-items-center" data-aos="fade-left"
                     data-aos-easing="ease-out-cubic" data-aos-duration="1000">
                     <div class="content_img">
-                        <img src="./assets/imgs/3.webp" alt="" class="desktop">
+                        <img src="./assets/imgs/3.png" alt="" class="desktop">
                         <!-- <img src="./assets/imgs/moblieView/3 (1).webp" class="moblie" alt=""> -->
 
                     </div>
@@ -726,9 +726,9 @@
                                     class="main_content_how_it_work d-flex align-items-center justify-content-between gap0">
                                     <div class="col col-sm-6 col-md-6">
                                         <div class="c_1 mt_4rem">
-                                            <h5 class="text-black fw-bolder">Accept Refr Tokens</h5>
-                                            <p class="c_62">Refr tokens are our in- app currency which have a value of
-                                                1:1. Customers can spend their collected Refr Tokens at your store & you
+                                            <h5 class="text-black fw-bolder">Accept RefrCash </h5>
+                                            <p class="c_62">RefrCash are our in- app currency which have a value of
+                                                1:1. Customers can spend their collected RefrCash at your store & you
                                                 can then withdraw it directly to your bank account.</p>
                                         </div>
                                         <div class="c_1 mt_4rem c_1_border_none">
@@ -994,7 +994,7 @@ Furthermore, both the customer and the friend get rewarded when he recommendatio
                         <hr>
                         <div class="container">
                             <div class="label fw_600"> Where will the rewards be paid out from?</div>
-                            <div class="content gray_txt"> The tokens will be deducted per click and per conversion from
+                            <div class="content gray_txt"> The RefrCash will be deducted per click and per conversion from
                                 the
                                 store’s campaign
                                 wallet.</div>
@@ -1007,7 +1007,9 @@ Furthermore, both the customer and the friend get rewarded when he recommendatio
                         <hr>
                         <div class="container">
                             <div class="label fw_600">How many campaigns can be run at a time?</div>
-                            <div class="content gray_txt">The store can run multiple campaigns at a time.</div>
+                            <div class="content gray_txt">
+                                You can run multiple campaigns for your business, starting with recommendation campaigns, followed by loyalty and offer campaigns, which include daily drops and student-specific offers.
+                            </div>
                         </div>
                         <hr>
                         <div class="container">

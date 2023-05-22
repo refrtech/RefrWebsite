@@ -640,7 +640,7 @@ html {
 }
 
 .spotlightTextSec {
-    max-width: 90%;
+    max-width: 97%;
     padding: 2rem 0 0 0;
 }
 
@@ -1149,7 +1149,8 @@ html {
     }
 
     .title_imgsSection img {
-        width: 395px;
+        width: 375px;
+        height: 100%;
     }
 
     .text_section {
@@ -1216,7 +1217,7 @@ html {
     }
     .topImgSection2 {
         width: 100%;
-        height: 350px;
+        height: 380px;
     }
 
     .topImgSection2 img {
@@ -1272,7 +1273,7 @@ html {
     }
 
     .pntsText h4 {
-        font-size: 1.3rem;
+        font-size: 1.125rem;
     }
 
     .pntsText p {
@@ -1313,7 +1314,7 @@ html {
     .spotlightTextSec {
         max-width: 100%;
         margin: auto;
-        padding: 1rem 0 0 0;
+        padding: 1.5rem 0 0 0;
         text-align: center;
     }
 

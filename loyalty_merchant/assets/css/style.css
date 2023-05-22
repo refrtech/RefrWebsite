@@ -360,12 +360,13 @@ header {
 }
 
 .content_text {
-  width: 33%;
+  width: 35%;
   /* margin-left: 2rem; */
 }
 
 .content_text h3 {
   font-size: 2.2rem;
+  width: 87%;
 }
 
 .green_text h3 {
@@ -399,6 +400,8 @@ header {
 .card:nth-child(2) {
   margin-bottom: 9px;
 }
+
+
 
 .card:hover {
   background: #ceff00;
@@ -943,6 +946,7 @@ header {
     font-size: 1.5rem;
     width: 100%;
     text-align: left;
+    width: 100%;
   }
 
   .content2 {
@@ -1114,7 +1118,7 @@ header {
 
   .accordion .container.active .content {
     height: auto;
-    padding: 20px 0;
+    padding: 20px 0 0 0;
   }
 
   .from_recommdention_conversion {

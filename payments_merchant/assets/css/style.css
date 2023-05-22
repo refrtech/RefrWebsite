@@ -901,8 +901,11 @@ header {
   }
 
   .pf_heading p {
-    height: auto;
-    min-height: -webkit-fill-available;
+    min-height: 5rem;
+  }
+
+  .accordion{
+    padding: 1rem 0 2rem 0;
   }
 
   .bg_black{

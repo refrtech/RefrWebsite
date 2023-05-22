@@ -1251,8 +1251,8 @@ header {
   }
 
   .pf_heading p {
-    height: auto;
-    min-height: -webkit-fill-available;
+    min-height: 5rem;
+    margin: 0;
   }
 
   .accordion {

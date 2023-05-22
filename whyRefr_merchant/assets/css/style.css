@@ -386,7 +386,7 @@ header {
 
 .division_content ul li {
   display: flex;
-  gap: 1rem;
+  gap: 0.7rem;
   padding: 0 0 2rem 0;
 }
 
@@ -665,7 +665,7 @@ header {
 
   .discover_name {
     width: 100%;
-    padding: 4rem 0;
+    padding: 4rem 1rem !important;
   }
 
   .discover_name h1 {

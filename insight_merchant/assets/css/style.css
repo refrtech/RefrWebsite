@@ -909,6 +909,11 @@ header {
   .become_partner {
     font-size: 20px !important;
   }
+
+  .accordion{
+    padding: 0 0 3rem 0;
+  }
+  
   .bg_black{
     margin: -1px 0 0 0 ;
   }

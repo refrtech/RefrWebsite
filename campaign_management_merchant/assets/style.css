@@ -290,6 +290,10 @@ header {
 }
 
 
+.heading_contents{
+  width: 89%;
+}
+
 .heading_contents h1 {
   font-size: 50px;
 }

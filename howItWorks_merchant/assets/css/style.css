@@ -690,7 +690,7 @@ section {
 
   .gs_cs a {
     padding: 10px 20px !important;
-    width: max-content;
+    width: 150px;
     font-size: 16px;
     height: 40px;
     display: flex;
@@ -778,7 +778,7 @@ section {
   /* howit works */
 
   section {
-    margin-bottom: 6rem;
+    margin-bottom: 0rem;
   }
 
   .main {

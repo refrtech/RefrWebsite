@@ -29,6 +29,14 @@
     <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
         crossorigin="anonymous"></script>
+
+
+
+    <!-- video part -->
+    <script defer type="text/javascript" src="https://code.jquery.com/jquery-1.12.1.min.js"></script>
+    <script defer
+        src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.css" />
 </head>
 
 <body>
@@ -102,12 +110,12 @@
                                 </div>
                                 <div class="footer_ul">
                                     <ul>
-                                        <li><a class="c_A3" href="../faqs/index.html">FAQs</a></li>
+                                        <li><a class="c_A3" href="../faqs_merchant/index.html">FAQs</a></li>
                                         <li><a class="c_A3" href="../howItWorks_merchant/index.html">How it works</a>
                                         </li>
                                         <li><a class="c_A3" href="../casestudy_section/index.html">Case studies</a>
                                         </li>
-                                        <li><a class="c_A3" href="">Watch the journey</a></li>
+                                        <li><a class="c_A3" href="https://www.youtube.com/watch?v=aQ5HxLeO690">Watch the journey</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -181,6 +189,21 @@
             </div>
         </div>
     </footer>
+
+
+    <script>
+        $(function ()
+        {
+            $(".popup-youtube, .popup-vimeo").magnificPopup({
+                disableOn: 700,
+                type: "iframe",
+                mainClass: "mfp-fade",
+                removalDelay: 160,
+                preloader: false,
+                fixedContentPos: false,
+            });
+        });
+    </script>
 
 </body>
 
