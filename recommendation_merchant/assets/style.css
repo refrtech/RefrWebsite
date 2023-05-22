@@ -50,7 +50,6 @@ html {
   background: #e4e4e4;
 }
 
-
 .c_b6 {
   color: #b6b6b6;
 }
@@ -72,12 +71,10 @@ html {
   height: 24px;
 }
 
-
 .dropdown_content_svg svg {
   width: 24px;
   height: 24px;
 }
-
 
 .dropdown-item span {
   display: flex;
@@ -91,7 +88,6 @@ html {
   font-size: 14px !important;
 }
 
-
 .dropdown_text {
   font-size: 12px;
 }
@@ -102,7 +98,8 @@ html {
   content: "";
   height: 1em;
   margin-left: 0.25em;
-  -webkit-mask: url(https://cdn.shopify.com/shopifycloud/brochure2/staging/assets/link-arrow.e34cea4d.svg) no-repeat 50% 50%;
+  -webkit-mask: url(https://cdn.shopify.com/shopifycloud/brochure2/staging/assets/link-arrow.e34cea4d.svg)
+    no-repeat 50% 50%;
   -webkit-mask-size: cover;
   transition: opacity 0.12s ease, transform 0.3s cubic-bezier(0.66, 0, 0.34, 1);
   width: 1em;
@@ -246,9 +243,7 @@ header {
   display: none;
 }
 
-
 /*  */
-
 
 /*  */
 
@@ -295,7 +290,8 @@ header {
   display: block;
 }
 
-.inactive img,.active img {
+.inactive img,
+.active img {
   opacity: 0.4;
   width: 100%;
   object-fit: contain;
@@ -307,7 +303,7 @@ header {
 }
 
 .section_content {
-  padding: 4rem 4rem 4rem 5rem;
+  padding: 4rem 0rem;
 }
 
 .video-js {
@@ -554,9 +550,11 @@ header {
   height: 0.65rem;
   cursor: pointer;
   animate: 0.2s;
-  background: linear-gradient(90deg,
-      #874bf9 var(--range-progress),
-      #dee4ec var(--range-progress));
+  background: linear-gradient(
+    90deg,
+    #874bf9 var(--range-progress),
+    #dee4ec var(--range-progress)
+  );
   border-radius: 1rem;
 }
 
@@ -633,11 +631,12 @@ header {
   margin: 3rem 0;
   display: flex;
   align-items: center;
-  padding: 2rem 0;
+  padding: 2rem;
+  gap: 2rem;
 }
 
 .testimonial_img {
-  width: 70%;
+  width: 429px;
   height: 290px;
 }
 
@@ -749,7 +748,6 @@ header {
   text-decoration: none;
 }
 
-
 .from_recommdention_conversion {
   width: 100%;
   padding: 6rem 0;
@@ -761,8 +759,6 @@ header {
 
 /* media queries and animation  */
 
-
-
 @media screen and (max-height: 450px) {
   .sidenav {
     padding-top: 15px;
@@ -772,7 +768,6 @@ header {
     font-size: 18px;
   }
 }
-
 
 .sideleft .me-4 a {
   display: block;
@@ -792,9 +787,6 @@ header {
 .for_r {
   font-size: 14px;
 }
-
-
-
 
 @media screen and (max-width: 1130px) {
   .for_r {
@@ -817,7 +809,7 @@ header {
   }
 
   .get_the_app a {
-    border: 1px solid #8111E8;
+    border: 1px solid #8111e8;
     border-radius: 6px;
     padding: 6px 16px !important;
     border: 1px solid blue;
@@ -833,7 +825,7 @@ header {
 
   .active .fw {
     font-weight: 600 !important;
-    color:#000000
+    color: #000000;
   }
 
   .active .rotate {
@@ -861,7 +853,7 @@ header {
     margin-top: 1rem;
   }
 
-  .sidenav_text{
+  .sidenav_text {
     font-size: 14px;
   }
 
@@ -985,7 +977,6 @@ header {
     display: none !important;
   }
 
-
   /*e  */
   .header2 {
     max-width: 100% !important;
@@ -1019,7 +1010,7 @@ header {
     margin-left: -25px;
   }
 
-  .bg_black{
+  .bg_black {
     margin: -1px 0 0 0;
   }
 

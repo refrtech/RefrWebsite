@@ -54,7 +54,6 @@ html {
   color: #ceff00;
 }
 
-
 .dropdown_header h4 {
   font-size: 18px;
   font-weight: 600;
@@ -72,12 +71,10 @@ html {
   height: 24px;
 }
 
-
 .dropdown_content_svg svg {
   width: 24px;
   height: 24px;
 }
-
 
 .dropdown-item span {
   display: flex;
@@ -91,7 +88,6 @@ html {
   font-size: 14px !important;
 }
 
-
 .dropdown_text {
   font-size: 12px;
 }
@@ -102,7 +98,8 @@ html {
   content: "";
   height: 1em;
   margin-left: 0.25em;
-  -webkit-mask: url(https://cdn.shopify.com/shopifycloud/brochure2/staging/assets/link-arrow.e34cea4d.svg) no-repeat 50% 50%;
+  -webkit-mask: url(https://cdn.shopify.com/shopifycloud/brochure2/staging/assets/link-arrow.e34cea4d.svg)
+    no-repeat 50% 50%;
   -webkit-mask-size: cover;
   transition: opacity 0.12s ease, transform 0.3s cubic-bezier(0.66, 0, 0.34, 1);
   width: 1em;
@@ -246,11 +243,7 @@ header {
   display: none;
 }
 
-
 /*  */
-
-
-
 
 /*  */
 
@@ -291,16 +284,13 @@ header {
   opacity: 1;
 }
 
-
-
 .getdemo_lalign a {
   font-size: 1.125rem;
   padding: 14px 28px;
 }
 
-
 .section_content {
-  padding: 4rem 4rem 4rem 5rem;
+  padding: 4rem 0rem;
 }
 
 .discover_name {
@@ -400,8 +390,6 @@ header {
 .card:nth-child(2) {
   margin-bottom: 9px;
 }
-
-
 
 .card:hover {
   background: #ceff00;
@@ -568,7 +556,6 @@ header {
   font-size: 30px;
 }
 
-
 .from_recommdention_conversion {
   width: 100%;
   padding: 6rem 0;
@@ -587,7 +574,6 @@ header {
   padding: 10px 40px;
 }
 
-
 @media screen and (max-height: 450px) {
   .sidenav {
     padding-top: 15px;
@@ -597,7 +583,6 @@ header {
     font-size: 18px;
   }
 }
-
 
 .sideleft .me-4 a {
   display: block;
@@ -618,12 +603,7 @@ header {
   font-size: 14px;
 }
 
-
-
-
-
 @media screen and (max-width: 1130px) {
-
   .for_r {
     font-size: 12px;
   }
@@ -644,7 +624,7 @@ header {
   }
 
   .get_the_app a {
-    border: 1px solid #8111E8;
+    border: 1px solid #8111e8;
     border-radius: 6px;
     padding: 6px 16px !important;
     border: 1px solid blue;
@@ -660,7 +640,7 @@ header {
 
   .active .fw {
     font-weight: 600 !important;
-    color:#000000
+    color: #000000;
   }
 
   .active .rotate {
@@ -688,7 +668,7 @@ header {
     margin-top: 1rem;
   }
 
-  .sidenav_text{
+  .sidenav_text {
     font-size: 14px;
   }
 
@@ -812,7 +792,6 @@ header {
     display: none !important;
   }
 
-
   /*e  */
 
   /*e  */
@@ -922,7 +901,6 @@ header {
     width: 100%;
     gap: 2rem;
     margin-bottom: 4rem;
-
   }
 
   .content_img {
@@ -969,7 +947,6 @@ header {
     text-align: left !important;
   }
 
-
   .heading_contents {
     max-width: 100%;
     min-width: 100%;
@@ -991,15 +968,12 @@ header {
     font-size: 1.5rem;
   }
 
-
-
   .card {
     margin: 0;
     padding: 20px;
     width: 174px;
     height: 219px !important;
   }
-
 
   .card:nth-child(odd) {
     margin-right: 0;
@@ -1017,7 +991,6 @@ header {
     margin-bottom: 0;
   }
 
- 
   .recommend_txt {
     margin: 5rem 0 2rem 0;
   }
@@ -1134,7 +1107,7 @@ header {
     margin: 0;
   }
 
-  .get_demo{
+  .get_demo {
     margin-top: 25px;
   }
 
@@ -1143,7 +1116,6 @@ header {
     font-size: 14px;
   }
 
-  
   .recommendation_content {
     width: 100%;
   }

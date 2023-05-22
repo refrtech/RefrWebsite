@@ -54,7 +54,6 @@ html {
   color: #b6b6b6;
 }
 
-
 .dropdown_header h4 {
   font-size: 18px;
   font-weight: 600;
@@ -72,12 +71,10 @@ html {
   height: 24px;
 }
 
-
 .dropdown_content_svg svg {
   width: 24px;
   height: 24px;
 }
-
 
 .dropdown-item span {
   display: flex;
@@ -91,7 +88,6 @@ html {
   font-size: 14px !important;
 }
 
-
 .dropdown_text {
   font-size: 12px;
 }
@@ -102,7 +98,8 @@ html {
   content: "";
   height: 1em;
   margin-left: 0.25em;
-  -webkit-mask: url(https://cdn.shopify.com/shopifycloud/brochure2/staging/assets/link-arrow.e34cea4d.svg) no-repeat 50% 50%;
+  -webkit-mask: url(https://cdn.shopify.com/shopifycloud/brochure2/staging/assets/link-arrow.e34cea4d.svg)
+    no-repeat 50% 50%;
   -webkit-mask-size: cover;
   transition: opacity 0.12s ease, transform 0.3s cubic-bezier(0.66, 0, 0.34, 1);
   width: 1em;
@@ -246,9 +243,7 @@ header {
   display: none;
 }
 
-
 /*  */
-
 
 @media screen and (max-height: 450px) {
   .sidenav {
@@ -259,7 +254,6 @@ header {
     font-size: 18px;
   }
 }
-
 
 .sideleft .me-4 a {
   display: block;
@@ -280,17 +274,13 @@ header {
   font-size: 14px;
 }
 
-
-
-
 /*  */
 
 .section_content {
-  padding: 4rem 4rem 4rem 5rem;
+  padding: 4rem 0rem;
 }
 
-
-.heading_contents{
+.heading_contents {
   width: 89%;
 }
 
@@ -314,7 +304,6 @@ header {
   height: 100%;
   object-fit: contain;
 }
-
 
 .getdemo_lalign {
   font-size: 1.125rem;
@@ -349,7 +338,6 @@ header {
   width: 100%;
   height: 100%;
   object-fit: contain;
-
 }
 
 .columns_campaign ul {
@@ -360,15 +348,13 @@ header {
   margin: 0 0 1.5rem 0;
 }
 
-
 .columns_campaign ul li:last-child {
   margin: 0 0 0 0;
-
 }
 
 .col_camp {
-  background: #FFFFFF;
-  border: 1px solid #EFEFEF;
+  background: #ffffff;
+  border: 1px solid #efefef;
   border-radius: 10px;
   padding: 2rem;
   color: #000000;
@@ -377,7 +363,8 @@ header {
 
 .col_camp:hover {
   box-shadow: 4px 4px 24px -5px rgba(156, 156, 156, 0.25);
-  transition: visibility 0s, opacity .3s ease-in-out, margin-top .3s ease-in-out;
+  transition: visibility 0s, opacity 0.3s ease-in-out,
+    margin-top 0.3s ease-in-out;
 }
 
 .col_camp:last-child {
@@ -428,8 +415,8 @@ header {
 
 .flip-card-front {
   color: black;
-  background: #FFFFFF;
-  border: 1px solid #EFEFEF;
+  background: #ffffff;
+  border: 1px solid #efefef;
   box-shadow: 4px 4px 24px 10px rgba(156, 156, 156, 0.25);
   border-radius: 8px;
   display: flex;
@@ -451,7 +438,7 @@ header {
 }
 
 .flip-card-back {
-  background-color: #8111E8;
+  background-color: #8111e8;
   color: white;
   transform: rotateY(180deg);
   border-radius: 8px;
@@ -463,13 +450,10 @@ header {
 
 /* flip e */
 
-
-
 .schedule_connect {
   text-align: center;
   padding: 0 0 2rem 0;
 }
-
 
 .schedule_connect .h1 {
   font-size: 1.25rem;
@@ -485,7 +469,6 @@ header {
 .schedule_meeting {
   text-decoration: underline !important;
 }
-
 
 .recommend_txt {
   margin: 4rem 0;
@@ -546,10 +529,12 @@ header {
   margin: 3rem 0;
   display: flex;
   align-items: center;
+  padding: 2rem;
+  gap: 2rem;
 }
 
 .testimonial_img {
-  width: 70%;
+  width: 476px;
   height: 290px;
 }
 
@@ -583,9 +568,6 @@ header {
   height: 100%;
   object-fit: contain;
 }
-
-
-
 
 .from_recommdention_conversion {
   width: 100%;
@@ -672,10 +654,7 @@ header {
   font-size: 30px;
 }
 
-
-
 @media screen and (max-width: 1130px) {
-
   .for_r {
     font-size: 12px;
   }
@@ -696,7 +675,7 @@ header {
   }
 
   .get_the_app a {
-    border: 1px solid #8111E8;
+    border: 1px solid #8111e8;
     border-radius: 6px;
     padding: 6px 16px !important;
     border: 1px solid blue;
@@ -712,7 +691,7 @@ header {
 
   .active .fw {
     font-weight: 600 !important;
-    color:#000000
+    color: #000000;
   }
 
   .active .rotate {
@@ -740,7 +719,7 @@ header {
     margin-top: 1rem;
   }
 
-  .sidenav_text{
+  .sidenav_text {
     font-size: 14px;
   }
 
@@ -864,9 +843,7 @@ header {
     display: none !important;
   }
 
-
   /*e  */
-  
 
   .section_content {
     padding: 2rem 1rem 0 1rem;
@@ -901,7 +878,7 @@ header {
   .getdemo_lalign {
     font-size: 1rem;
     padding: 10px 20px;
-    margin: auto
+    margin: auto;
   }
 
   .schedule_connect {
@@ -921,7 +898,7 @@ header {
     margin: 5rem 0 3rem 0;
   }
 
-  .discover_name:last-child{
+  .discover_name:last-child {
     margin: 5rem 0 1rem 0;
   }
 
@@ -1060,7 +1037,6 @@ header {
   .from_recommdention_conversion h3 {
     font-size: 1.125rem;
   }
-
 
   .get_demo {
     margin-top: 24px;
