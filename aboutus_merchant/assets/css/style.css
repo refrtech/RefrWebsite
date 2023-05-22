@@ -22,8 +22,6 @@ html {
   background: #dcff4f;
 }
 
-
-
 .dropdown_header h4 {
   font-size: 18px;
   font-weight: 600;
@@ -34,7 +32,6 @@ html {
   width: 1000px;
   box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 4px;
   border: none !important;
-
 }
 
 .dropdown_content_svg {
@@ -42,12 +39,10 @@ html {
   height: 24px;
 }
 
-
 .dropdown_content_svg svg {
   width: 24px;
   height: 24px;
 }
-
 
 .dropdown-item span {
   display: flex;
@@ -61,7 +56,6 @@ html {
   font-size: 14px !important;
 }
 
-
 .dropdown_text {
   font-size: 12px;
 }
@@ -72,7 +66,8 @@ html {
   content: "";
   height: 1em;
   margin-left: 0.25em;
-  -webkit-mask: url(https://cdn.shopify.com/shopifycloud/brochure2/staging/assets/link-arrow.e34cea4d.svg) no-repeat 50% 50%;
+  -webkit-mask: url(https://cdn.shopify.com/shopifycloud/brochure2/staging/assets/link-arrow.e34cea4d.svg)
+    no-repeat 50% 50%;
   -webkit-mask-size: cover;
   transition: opacity 0.12s ease, transform 0.3s cubic-bezier(0.66, 0, 0.34, 1);
   width: 1em;
@@ -216,15 +211,10 @@ header {
   display: none;
 }
 
-
 /*  */
 
 .about_refr {
   margin: 3rem 0 10% 0;
-}
-
-#aboutus_content {
-  padding: 0 12% !important;
 }
 
 .about {
@@ -333,7 +323,6 @@ header {
   padding-bottom: 50px;
 }
 
-
 @media screen and (max-height: 450px) {
   .sidenav {
     padding-top: 15px;
@@ -343,7 +332,6 @@ header {
     font-size: 18px;
   }
 }
-
 
 .sideleft .me-4 a {
   display: block;
@@ -356,15 +344,11 @@ header {
   width: 100%;
 }
 
-
 .for_r {
   font-size: 14px;
 }
 
-
-
 @media screen and (max-width: 1130px) {
-
   .for_r {
     font-size: 12px;
   }
@@ -385,7 +369,7 @@ header {
   }
 
   .get_the_app a {
-    border: 1px solid #8111E8;
+    border: 1px solid #8111e8;
     border-radius: 6px;
     padding: 6px 16px !important;
     border: 1px solid blue;
@@ -397,7 +381,7 @@ header {
 
   .active .fw {
     font-weight: 600 !important;
-    color:#000000
+    color: #000000;
   }
 
   .active .rotate {
@@ -547,7 +531,7 @@ header {
     font-size: 16px;
     display: none !important;
   }
-  
+
   /*e  */
 
   #aboutus_content {

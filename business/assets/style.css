@@ -1148,10 +1148,6 @@ header {
   display: none;
 }
 
-::-webkit-scrollbar {
-  display: none !important;
-}
-
 .hidden {
   opacity: 0.4;
   transition: all 1s;
