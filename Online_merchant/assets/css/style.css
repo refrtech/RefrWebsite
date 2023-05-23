@@ -443,10 +443,9 @@ html {
     display: flex;
     justify-content: center;
     gap: 5rem;
-    width: 85%;
+    width: 90%;
     margin-left: auto;
     position: relative;
-    /* height: 600px; */
 }
 
 .bg_pur {
@@ -454,9 +453,7 @@ html {
 }
 
 .upperSection {
-    /* width: 44%; */
     margin: -7rem 0px 0rem 4rem;
-    /* margin-left: auto; */
 }
 
 .topImgSection {
