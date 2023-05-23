@@ -257,14 +257,14 @@ header {
 
 .bg_purplee {
     background: #8100E9;
-    height: 100vh;
-    overflow: hidden;
+    /* height: 100vh;
+    overflow: hidden; */
 }
 
 .mainpart {
     padding: 4.5rem 8rem 0 8rem;
     display: flex;
-    position: relative;
+    /* position: relative; */
 }
 
 .leftpart h4 {
@@ -291,7 +291,7 @@ header {
 .forms_Section {
     width: 600px;
     /* height: 360px; */
-    position: absolute;
+    /* position: absolute; */
     margin: 0 0 0 0rem;
 }
 
