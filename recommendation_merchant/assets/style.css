@@ -420,7 +420,7 @@ header {
 
 .recommendation_img img {
   width: 100%;
-  height: -webkit-fill-available;
+  height:auto;
   object-fit: contain;
   margin: 0 0 0rem 4.3rem;
 }
@@ -1032,6 +1032,7 @@ header {
 
   .recommendation_img img {
     margin: 0;
+    height: auto;
   }
 
   .heading_contents p {
@@ -1090,7 +1091,7 @@ header {
   }
 
   .content_img {
-    width: 100%;
+    width: 70%;
     height: auto;
     margin: 0;
     text-align: center;
