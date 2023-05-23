@@ -467,7 +467,7 @@ header {
 }
 
 .schedule_meeting {
-  text-decoration: underline !important;
+  text-decoration: none !important;
 }
 
 .recommend_txt {
@@ -898,12 +898,12 @@ header {
 
   .discover_name {
     width: 100%;
-    margin: 5rem 0 3rem 0;
+    margin: 5rem 1rem 3rem 1rem;
     padding: 0 2rem;
   }
 
   .discover_name:last-child {
-    margin: 5rem 0 1rem 0;
+    margin: 5rem 1rem 1rem 1rem;
   }
 
   .discover_name h1 {
