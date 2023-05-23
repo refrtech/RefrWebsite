@@ -722,6 +722,16 @@
   overflow: hidden !important;
 }
 
+.overflow_x{
+  overflow-x: hidden !important;
+}
+
+.overflow_y{
+  overflow-y: hidden !important;
+}
+
+
+
 .purple_background {
   background-color: #874bf9 !important;
 }

@@ -352,6 +352,15 @@ input::-webkit-inner-spin-button {
 
 .submit_cta {
     text-align: right;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.form_submit{
+    display: flex;
+    gap: 0.75rem;
+    align-items: center;
 }
 
 .submit_cta input {
@@ -383,6 +392,9 @@ input::-webkit-inner-spin-button {
 .error_txt {
     color: #ff2d2d;
     font-size: 14px;
+}
+.form_submit{
+    display: none;
 }
 
 

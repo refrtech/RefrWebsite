@@ -22,21 +22,24 @@ const reviews = [
     id: 1,
     desc: "Refr let’s our customers give us a shout-out from the table which has led to increase in our order volume. We are very pleased with this genuine form of marketing for our restaurant.",
     storeName: "SEEFAH",
-    logo: "https://firebasestorage.googleapis.com/v0/b/refr/o/website%2FRectangle%2010543.png?alt=media&token=e99323d5-7f09-4e0a-b2c8-c499cbaf6e46",
+    resturant:"Restaurant owner",
+    logo: "https://firebasestorage.googleapis.com/v0/b/refr/o/website%2Fsh_owner.png?alt=media&token=da60e23b-694e-49aa-8def-b193b7f6ccc0",
     banner:
       "https://firebasestorage.googleapis.com/v0/b/refr/o/website%2Fsheefash.png?alt=media&token=25b110f4-bcd8-45b6-9b3e-e31486d5a9bd",
   },
   {
     id: 2,
-    desc: "Expanding our business was easy with Refr. Since our customers started recommending us, we gained recognition in our neighbourhood which lead to increased walk-ins.",
-    storeName: "Snip & Scissors",
-    logo: "https://firebasestorage.googleapis.com/v0/b/refr/o/website%2Fsnip_banner.png?alt=media&token=b87512bf-61cc-4d3f-8b30-76b389d9ec74",
-    banner: "https://firebasestorage.googleapis.com/v0/b/refr/o/website%2Fsnip_logo.png?alt=media&token=626a26d2-aeca-4aa6-bbd9-72e2f59daa38",
+    desc: "Refr has proven to be a great launchpad that has helped us grow awareness of our brand & build our online presence.",
+    storeName: "Hanisha",
+    resturant:"Salon owner",
+    logo: "https://firebasestorage.googleapis.com/v0/b/refr/o/website%2FRectangle%2010543.png?alt=media&token=87622785-6186-4845-b29c-a33726238704",
+    banner: "https://firebasestorage.googleapis.com/v0/b/refr/o/website%2Fnailstorybanner.png?alt=media&token=44e91377-1157-4465-a68a-54f6e437581c",
   },
   {
     id: 3,
     desc: "We are quite happy to list our brand on the Refr marketplace. Customers can easily pay with RefrCash, which let’s more people buy from us. They help with the cataloguing as well, so it’s been a smooth ride.",
     storeName: "Wrapcart",
+    resturant:"owner",
     logo: "https://firebasestorage.googleapis.com/v0/b/refr/o/website%2FwrapcartLogo.png?alt=media&token=d6875079-0fa5-446d-abd5-68a633d7f55d",
     banner: "https://firebasestorage.googleapis.com/v0/b/refr/o/website%2Fwrapcartbanner.png?alt=media&token=03870319-ee0d-4098-86be-12b78bc9db67",
   },
@@ -44,6 +47,7 @@ const reviews = [
 
 const desc = document.getElementById("desc");
 const storename = document.getElementById("storename");
+const resturant = document.getElementById("resturant");
 const logo = document.getElementById("logo");
 const banner = document.getElementById("banner");
 const prevBtn = document.querySelector(".prev-btn");
@@ -57,6 +61,7 @@ window.addEventListener("DOMContentLoaded", function () {
   const item = reviews[currentItem];
   desc.textContent = item.desc;
   storename.textContent = item.storeName;
+  resturant.textContent = item.resturant;
   logo.src = item.logo;
   banner.src = item.banner;
 });
@@ -67,6 +72,7 @@ function showPerson(person) {
   const item = reviews[person];
   desc.textContent = item.desc;
   storename.textContent = item.storeName;
+  resturant.textContent = item.resturant;
   logo.src = item.logo;
   banner.src = item.banner;
 }
@@ -76,24 +82,29 @@ function showPerson(person) {
 
 
 nextBtn.addEventListener("click", function (e) {
-  currentItem++;
-  if (currentItem > reviews.length - 1) {
-    currentItem = 0;
-  }
-
-  showPerson(currentItem);
+  setTimeout(() => {   
+    currentItem++;
+    if (currentItem > reviews.length - 1) {
+      currentItem = 0;
+    }
+  
+    showPerson(currentItem);
+  }, 1000);
 });
 
 // show prev person
 
 prevBtn.addEventListener("click", function () {
-  currentItem--;
-
-  if (currentItem < 0) {
-    currentItem = reviews.length - 1;
-  }
-
-  showPerson(currentItem);
+  setTimeout(() => {
+    
+    currentItem--;
+  
+    if (currentItem < 0) {
+      currentItem = reviews.length - 1;
+    }
+  
+    showPerson(currentItem);
+  }, 1000);
 });
 
 // testimontial e

@@ -133,12 +133,13 @@ footer {
     padding: 2rem 0.5rem;
   }
   .footer_W {
-    max-width: 50%;
+    max-width: 100%;
   }
 
   .footer_main {
     gap: 1rem;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
   }
 
   .footer_heading h5 {

@@ -30,12 +30,24 @@ function saveGetDemo() {
       },
       (data) => {
         console.log("Data saved :" + data);
+        
+        document.getElementById('form_submit').style.display='block';
+
         $("#bName").val("");
         $("#name").val("");
         $("#email").val("");
         $("#moblie").val("");
-
+        $("#form_submit").val("");
         $("#submitGetDemo").prop("disabled", false);
+
+
+        setTimeout(() => {
+          document.getElementById('form_submit').style.display='none';
+        }, 2000);
+
+
+
+
       }
     );
   }
