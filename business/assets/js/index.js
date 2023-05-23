@@ -38,8 +38,8 @@ const reviews = [
   {
     id: 3,
     desc: "We are quite happy to list our brand on the Refr marketplace. Customers can easily pay with RefrCash, which let’s more people buy from us. They help with the cataloguing as well, so it’s been a smooth ride.",
-    storeName: "Wrapcart",
-    resturant:"owner",
+    storeName: "Aditya",
+    resturant:"Owner",
     logo: "https://firebasestorage.googleapis.com/v0/b/refr/o/website%2FwrapcartLogo.png?alt=media&token=d6875079-0fa5-446d-abd5-68a633d7f55d",
     banner: "https://firebasestorage.googleapis.com/v0/b/refr/o/website%2Fwrapcartbanner.png?alt=media&token=03870319-ee0d-4098-86be-12b78bc9db67",
   },
