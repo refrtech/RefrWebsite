@@ -1369,7 +1369,7 @@ html {
     }
 
     .bigSec {
-        height: 240px;
+        height: auto;
     }
 
     .cont_one h3 {
