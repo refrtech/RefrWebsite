@@ -1337,6 +1337,11 @@ html {
         height: 210px;
     }
 
+    .spotlightImg img{
+        width: 100%;
+        height: 210px;
+    }
+
     .spotlightTextSec {
         max-width: 100%;
         margin: auto;
