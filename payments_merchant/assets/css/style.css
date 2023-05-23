@@ -841,7 +841,7 @@ header {
 
   .content_img {
     width: 80%;
-    height: -webkit-fill-available;
+    height: 300px;
   }
 
   .content_text {
@@ -867,7 +867,7 @@ header {
 
   .content_img2 {
     width: 100%;
-    height: -webkit-fill-available;
+    height: 300px;
   }
 
   .processingfess_section {
