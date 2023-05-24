@@ -746,4 +746,8 @@ html {
         padding: 10px 35px;
     }
 
+
+    .card_section{
+      justify-content: center;
+    }
 }

@@ -467,7 +467,7 @@ header {
 }
 
 .schedule_meeting {
-  text-decoration: underline !important;
+  text-decoration: none !important;
 }
 
 .recommend_txt {
@@ -853,6 +853,9 @@ header {
     align-items: center;
     flex-direction: column;
   }
+  .heading_contents{
+    width: 100%;
+  }
 
   .heading_contents h1 {
     font-size: 26px;
@@ -895,11 +898,12 @@ header {
 
   .discover_name {
     width: 100%;
-    margin: 5rem 0 3rem 0;
+    margin: 5rem 1rem 3rem 1rem;
+    padding: 0 2rem;
   }
 
   .discover_name:last-child {
-    margin: 5rem 0 1rem 0;
+    margin: 5rem 1rem 1rem 1rem;
   }
 
   .discover_name h1 {
@@ -1017,7 +1021,7 @@ header {
 
   .accordion .label {
     font-size: 1rem;
-    width: 95%;
+    width: 90%;
   }
 
   .accordion .label::before {

@@ -766,7 +766,7 @@ section {
 
   .main {
     flex-direction: column;
-    margin-top: 0;
+    margin: 0 0 4rem 0;
   }
   .leftContent {
     gap: 1rem !important;

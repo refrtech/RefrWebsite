@@ -1135,7 +1135,7 @@ header {
   }
 
   .slide-track {
-    gap: 2rem !important;
+    gap: 4rem !important;
   }
 
   .slide {
@@ -1358,7 +1358,7 @@ header {
   }
 
   100% {
-    transform: translateX(calc(-250px * 12));
+    transform: translateX(calc(-250px * 10));
   }
 }
 
@@ -1375,7 +1375,7 @@ header {
   display: flex;
   gap: 8rem;
   align-items: center;
-  width: calc(250px * 24);
+  width: calc(250px * 20);
 }
 
 .slide {

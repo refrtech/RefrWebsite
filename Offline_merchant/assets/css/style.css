@@ -1170,7 +1170,7 @@ html {
 
     .title_imgsSection img {
         width: 375px;
-        height: 100%;
+        height: 400px;
     }
 
     .text_section {
@@ -1337,6 +1337,11 @@ html {
         height: 210px;
     }
 
+    .spotlightImg img{
+        width: 100%;
+        height: 210px;
+    }
+
     .spotlightTextSec {
         max-width: 100%;
         margin: auto;
@@ -1399,7 +1404,7 @@ html {
     }
 
     .bigSec {
-        height: 240px;
+        height: auto;
     }
 
     .cont_one h3 {
