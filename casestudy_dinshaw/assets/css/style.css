@@ -68,7 +68,6 @@ body {
   width: 1000px;
   box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 4px;
   border: none !important;
-
 }
 
 .dropdown_content_svg {
@@ -76,12 +75,10 @@ body {
   height: 24px;
 }
 
-
 .dropdown_content_svg svg {
   width: 24px;
   height: 24px;
 }
-
 
 .dropdown-item span {
   display: flex;
@@ -95,7 +92,6 @@ body {
   font-size: 14px !important;
 }
 
-
 .dropdown_text {
   font-size: 12px;
 }
@@ -106,7 +102,8 @@ body {
   content: "";
   height: 1em;
   margin-left: 0.25em;
-  -webkit-mask: url(https://cdn.shopify.com/shopifycloud/brochure2/staging/assets/link-arrow.e34cea4d.svg) no-repeat 50% 50%;
+  -webkit-mask: url(https://cdn.shopify.com/shopifycloud/brochure2/staging/assets/link-arrow.e34cea4d.svg)
+    no-repeat 50% 50%;
   -webkit-mask-size: cover;
   transition: opacity 0.12s ease, transform 0.3s cubic-bezier(0.66, 0, 0.34, 1);
   width: 1em;
@@ -250,9 +247,7 @@ header {
   display: none;
 }
 
-
 /*  */
-
 
 @media screen and (max-height: 450px) {
   .sidenav {
@@ -263,7 +258,6 @@ header {
     font-size: 18px;
   }
 }
-
 
 .sideleft .me-4 a {
   display: block;
@@ -276,12 +270,9 @@ header {
   width: 100%;
 }
 
-
 .for_r {
   font-size: 14px;
 }
-
-
 
 .img-container {
   width: 100%;
@@ -306,7 +297,7 @@ header {
 
 .main {
   width: 70%;
-  margin: auto;
+  margin: 5rem auto 0 auto !important;
 }
 
 .para {
@@ -426,7 +417,6 @@ header {
 }
 
 @media screen and (max-width: 1130px) {
-
   .for_r {
     font-size: 12px;
   }
@@ -447,7 +437,7 @@ header {
   }
 
   .get_the_app a {
-    border: 1px solid #8111E8;
+    border: 1px solid #8111e8;
     border-radius: 6px;
     padding: 6px 16px !important;
     border: 1px solid blue;
@@ -459,7 +449,7 @@ header {
 
   .active .fw {
     font-weight: 600 !important;
-    color:#000000
+    color: #000000;
   }
 
   .active .rotate {
@@ -610,8 +600,6 @@ header {
     display: none !important;
   }
 
-  
-
   .heading {
     max-width: 100%;
     padding: 2rem 0;
@@ -635,7 +623,7 @@ header {
   .main {
     width: 100%;
   }
-  
+
   .img-container {
     height: auto;
   }
