@@ -420,7 +420,7 @@ header {
 
 .recommendation_img img {
   width: 100%;
-  height:auto;
+  height: auto;
   object-fit: contain;
   margin: 0 0 0rem 4.3rem;
 }
@@ -658,6 +658,7 @@ header {
   margin: 2rem 0 6rem 0;
   display: flex;
   justify-content: space-between;
+  gap: 1.5rem;
 }
 
 .casestudy_img {

@@ -477,6 +477,7 @@ header {
   margin: 2rem 0 0 0;
   display: flex;
   justify-content: space-between;
+  gap: 1.5rem;
 }
 
 .casestudy_img {
@@ -940,7 +941,7 @@ header {
     margin-top: 50px !important;
     display: grid;
     /* grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); */
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
     justify-content: unset;
   }
 
