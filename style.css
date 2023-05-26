@@ -41,7 +41,7 @@ a {
   font-weight: 600;
   font-size: 16px;
   line-height: 19px;
-  color: #000000;
+  color: #ffffff;
   padding-right: 16px;
 }
 
@@ -61,6 +61,18 @@ a {
   .d-lg-block,
   .d-md-block {
     display: none !important;
+  }
+
+  .img_header {
+    width: 250px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .img_header img {
+    width: 100%;
   }
 
   .mainHeader {
@@ -282,7 +294,7 @@ a {
   .sectionOne {
     width: 100%;
     height: 100vh;
-    background: linear-gradient(105.18deg, #fdb271 0%, #fe9ea1 78.54%, #ffbd81 90%, #ffa862 100%);
+    background: black;
     position: relative;
     overflow: hidden;
   }
@@ -456,6 +468,18 @@ a {
   }
 
   @media screen and (max-width: 1024px) {
+    .img_header {
+      width: 250px;
+      height: 250px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .img_header img {
+      width: 100%;
+    }
+
     .mainHeader {
       /* margin: 0px 20px 0px 20px; */
       padding: 0 0px;
@@ -509,7 +533,12 @@ a {
   .sectiontwo_text .gradient_text {
     text-transform: capitalize;
 
-    background: linear-gradient(95.04deg, #c892ff 30.3%, #6ddda7 63.89%, #ffb775 100.96%);
+    background: linear-gradient(
+      95.04deg,
+      #c892ff 30.3%,
+      #6ddda7 63.89%,
+      #ffb775 100.96%
+    );
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -693,7 +722,12 @@ a {
   }
 
   .scene__title .gradient_text {
-    background: linear-gradient(95.04deg, #c892ff 30.3%, #6ddda7 63.89%, #ffb775 100.96%);
+    background: linear-gradient(
+      95.04deg,
+      #c892ff 30.3%,
+      #6ddda7 63.89%,
+      #ffb775 100.96%
+    );
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -760,7 +794,14 @@ a {
 
   .container_cards {
     height: auto;
-    background: linear-gradient(105.18deg, rgba(253, 178, 113, 0.65) 0%, rgba(254, 158, 161, 0.65) 38.54%, rgba(255, 189, 129, 0.65) 66.15%, rgba(255, 168, 98, 0.65) 100%), #ffffff;
+    background: linear-gradient(
+        105.18deg,
+        rgba(253, 178, 113, 0.65) 0%,
+        rgba(254, 158, 161, 0.65) 38.54%,
+        rgba(255, 189, 129, 0.65) 66.15%,
+        rgba(255, 168, 98, 0.65) 100%
+      ),
+      #ffffff;
     padding: 20px;
   }
 
@@ -1203,6 +1244,18 @@ a {
     display: none !important;
   }
 
+  .img_header {
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .img_header img {
+    width: 100%;
+  }
+
   .mainHeader {
     font-family: poppins;
     font-size: 15px;
@@ -1283,7 +1336,7 @@ a {
   .sectionOne {
     width: 100%;
     height: 100vh;
-    background: linear-gradient(105.18deg, #fdb271 0%, #fe9ea1 78.54%, #ffbd81 90%, #ffa862 100%);
+    background: black;
     position: relative;
     overflow: hidden;
   }
@@ -1541,7 +1594,12 @@ a {
   .sectiontwo_text .gradient_text {
     text-transform: capitalize;
 
-    background: linear-gradient(95.04deg, #c892ff 30.3%, #6ddda7 63.89%, #ffb775 100.96%);
+    background: linear-gradient(
+      95.04deg,
+      #c892ff 30.3%,
+      #6ddda7 63.89%,
+      #ffb775 100.96%
+    );
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -1748,7 +1806,12 @@ a {
   }
 
   .scene__title .gradient_text {
-    background: linear-gradient(95.04deg, #c892ff 30.3%, #6ddda7 63.89%, #ffb775 100.96%);
+    background: linear-gradient(
+      95.04deg,
+      #c892ff 30.3%,
+      #6ddda7 63.89%,
+      #ffb775 100.96%
+    );
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -1796,7 +1859,14 @@ a {
   /* -----------SectionFour_Cards----------- */
 
   .container_cards {
-    background: linear-gradient(105.18deg, rgba(253, 178, 113, 0.65) 0%, rgba(254, 158, 161, 0.65) 38.54%, rgba(255, 189, 129, 0.65) 66.15%, rgba(255, 168, 98, 0.65) 100%), #ffffff;
+    background: linear-gradient(
+        105.18deg,
+        rgba(253, 178, 113, 0.65) 0%,
+        rgba(254, 158, 161, 0.65) 38.54%,
+        rgba(255, 189, 129, 0.65) 66.15%,
+        rgba(255, 168, 98, 0.65) 100%
+      ),
+      #ffffff;
     padding: 100px 160px 60px 160px;
     display: flex;
     flex-direction: column;
@@ -2129,6 +2199,18 @@ a {
     display: none !important;
   }
 
+  .img_header {
+    width: 400px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .img_header img {
+    width: 100%;
+  }
+
   .mainHeader {
     font-family: poppins;
     font-size: 15px;
@@ -2208,7 +2290,7 @@ a {
     /* background-image: url(https://wallpapercave.com/wp/wp7623952.jpg);
     background-size: cover;
     background-color: rgb(20, 20, 20); */
-    background: linear-gradient(105.18deg, #fdb271 0%, #fe9ea1 78.54%, #ffbd81 90%, #ffa862 100%);
+    background: black;
     position: relative;
     overflow: hidden;
   }
@@ -2439,7 +2521,12 @@ a {
   .sectiontwo_text .gradient_text {
     text-transform: capitalize;
 
-    background: linear-gradient(95.04deg, #c892ff 30.3%, #6ddda7 63.89%, #ffb775 100.96%);
+    background: linear-gradient(
+      95.04deg,
+      #c892ff 30.3%,
+      #6ddda7 63.89%,
+      #ffb775 100.96%
+    );
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -2647,7 +2734,12 @@ a {
   }
 
   .scene__title .gradient_text {
-    background: linear-gradient(95.04deg, #c892ff 30.3%, #6ddda7 63.89%, #ffb775 100.96%);
+    background: linear-gradient(
+      95.04deg,
+      #c892ff 30.3%,
+      #6ddda7 63.89%,
+      #ffb775 100.96%
+    );
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -2702,7 +2794,14 @@ a {
   .container_cards {
     /* width: 100%; */
     /* height: 85%; */
-    background: linear-gradient(105.18deg, rgba(253, 178, 113, 0.65) 0%, rgba(254, 158, 161, 0.65) 38.54%, rgba(255, 189, 129, 0.65) 66.15%, rgba(255, 168, 98, 0.65) 100%), #ffffff;
+    background: linear-gradient(
+        105.18deg,
+        rgba(253, 178, 113, 0.65) 0%,
+        rgba(254, 158, 161, 0.65) 38.54%,
+        rgba(255, 189, 129, 0.65) 66.15%,
+        rgba(255, 168, 98, 0.65) 100%
+      ),
+      #ffffff;
     padding: 80px 120px 60px 120px;
     display: flex;
     flex-direction: column;
@@ -3095,7 +3194,7 @@ a {
     /* background-image: url(https://wallpapercave.com/wp/wp7623952.jpg);
     background-size: cover;
     background-color: rgb(20, 20, 20); */
-    background: linear-gradient(105.18deg, #fdb271 0%, #fe9ea1 78.54%, #ffbd81 90%, #ffa862 100%);
+    background: black;
     position: relative;
     overflow: hidden;
   }
@@ -3322,7 +3421,12 @@ a {
   .sectiontwo_text .gradient_text {
     text-transform: capitalize;
 
-    background: linear-gradient(95.04deg, #c892ff 30.3%, #6ddda7 63.89%, #ffb775 100.96%);
+    background: linear-gradient(
+      95.04deg,
+      #c892ff 30.3%,
+      #6ddda7 63.89%,
+      #ffb775 100.96%
+    );
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -3530,7 +3634,12 @@ a {
   }
 
   .scene__title .gradient_text {
-    background: linear-gradient(95.04deg, #c892ff 30.3%, #6ddda7 63.89%, #ffb775 100.96%);
+    background: linear-gradient(
+      95.04deg,
+      #c892ff 30.3%,
+      #6ddda7 63.89%,
+      #ffb775 100.96%
+    );
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -3585,7 +3694,14 @@ a {
   .container_cards {
     /* width: 100%; */
     /* height: 85%; */
-    background: linear-gradient(105.18deg, rgba(253, 178, 113, 0.65) 0%, rgba(254, 158, 161, 0.65) 38.54%, rgba(255, 189, 129, 0.65) 66.15%, rgba(255, 168, 98, 0.65) 100%), #ffffff;
+    background: linear-gradient(
+        105.18deg,
+        rgba(253, 178, 113, 0.65) 0%,
+        rgba(254, 158, 161, 0.65) 38.54%,
+        rgba(255, 189, 129, 0.65) 66.15%,
+        rgba(255, 168, 98, 0.65) 100%
+      ),
+      #ffffff;
     padding: 60px 160px 60px 160px;
     display: flex;
     flex-direction: column;
@@ -3879,6 +3995,18 @@ a {
     display: none !important;
   }
 
+  .img_header {
+    width: 400px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .img_header img {
+    width: 100%;
+  }
+
   .mainHeader {
     font-family: poppins;
     font-size: 15px;
@@ -3968,7 +4096,7 @@ a {
     /* background-image: url(https://wallpapercave.com/wp/wp7623952.jpg);
     background-size: cover;
     background-color: rgb(20, 20, 20); */
-    background: linear-gradient(105.18deg, #fdb271 0%, #fe9ea1 78.54%, #ffbd81 90%, #ffa862 100%);
+    background: black;
     position: relative;
     overflow: hidden;
   }
@@ -4182,7 +4310,12 @@ a {
   .sectiontwo_text .gradient_text {
     text-transform: capitalize;
 
-    background: linear-gradient(95.04deg, #c892ff 30.3%, #6ddda7 63.89%, #ffb775 100.96%);
+    background: linear-gradient(
+      95.04deg,
+      #c892ff 30.3%,
+      #6ddda7 63.89%,
+      #ffb775 100.96%
+    );
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -4390,7 +4523,12 @@ a {
   }
 
   .scene__title .gradient_text {
-    background: linear-gradient(95.04deg, #c892ff 30.3%, #6ddda7 63.89%, #ffb775 100.96%);
+    background: linear-gradient(
+      95.04deg,
+      #c892ff 30.3%,
+      #6ddda7 63.89%,
+      #ffb775 100.96%
+    );
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -4445,7 +4583,14 @@ a {
   .container_cards {
     /* width: 100%; */
     /* height: 85%; */
-    background: linear-gradient(105.18deg, rgba(253, 178, 113, 0.65) 0%, rgba(254, 158, 161, 0.65) 38.54%, rgba(255, 189, 129, 0.65) 66.15%, rgba(255, 168, 98, 0.65) 100%), #ffffff;
+    background: linear-gradient(
+        105.18deg,
+        rgba(253, 178, 113, 0.65) 0%,
+        rgba(254, 158, 161, 0.65) 38.54%,
+        rgba(255, 189, 129, 0.65) 66.15%,
+        rgba(255, 168, 98, 0.65) 100%
+      ),
+      #ffffff;
     padding: 80px 160px 80px 160px;
     display: flex;
     flex-direction: column;
@@ -4755,6 +4900,18 @@ a {
     display: none !important;
   }
 
+  .img_header {
+    width: 500px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .img_header img {
+    width: 100%;
+  }
+
   .mainHeader {
     font-family: poppins;
     font-size: 15px;
@@ -4843,7 +5000,7 @@ a {
     /* background-image: url(https://wallpapercave.com/wp/wp7623952.jpg);
     background-size: cover;
     background-color: rgb(20, 20, 20); */
-    background: linear-gradient(105.18deg, #fdb271 0%, #fe9ea1 78.54%, #ffbd81 90%, #ffa862 100%);
+    background: black;
     position: relative;
     overflow: hidden;
   }
@@ -5069,7 +5226,12 @@ a {
   .sectiontwo_text .gradient_text {
     text-transform: capitalize;
 
-    background: linear-gradient(95.04deg, #c892ff 30.3%, #6ddda7 63.89%, #ffb775 100.96%);
+    background: linear-gradient(
+      95.04deg,
+      #c892ff 30.3%,
+      #6ddda7 63.89%,
+      #ffb775 100.96%
+    );
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -5277,7 +5439,12 @@ a {
   }
 
   .scene__title .gradient_text {
-    background: linear-gradient(95.04deg, #c892ff 30.3%, #6ddda7 63.89%, #ffb775 100.96%);
+    background: linear-gradient(
+      95.04deg,
+      #c892ff 30.3%,
+      #6ddda7 63.89%,
+      #ffb775 100.96%
+    );
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -5332,7 +5499,14 @@ a {
   .container_cards {
     /* width: 100%; */
     /* height: 85%; */
-    background: linear-gradient(105.18deg, rgba(253, 178, 113, 0.65) 0%, rgba(254, 158, 161, 0.65) 38.54%, rgba(255, 189, 129, 0.65) 66.15%, rgba(255, 168, 98, 0.65) 100%), #ffffff;
+    background: linear-gradient(
+        105.18deg,
+        rgba(253, 178, 113, 0.65) 0%,
+        rgba(254, 158, 161, 0.65) 38.54%,
+        rgba(255, 189, 129, 0.65) 66.15%,
+        rgba(255, 168, 98, 0.65) 100%
+      ),
+      #ffffff;
     padding: 100px 160px 60px 160px;
     display: flex;
     flex-direction: column;
@@ -5696,13 +5870,25 @@ a {
     text-transform: uppercase;
   }
 
+  .img_header {
+    width: 500px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .img_header img {
+    width: 100%;
+  }
+
   .sectionOne {
     width: 100%;
     height: 100vh;
     /* background-image: url(https://wallpapercave.com/wp/wp7623952.jpg);
     background-size: cover;
     background-color: rgb(20, 20, 20); */
-    background: linear-gradient(105.18deg, #fdb271 0%, #fe9ea1 78.54%, #ffbd81 90%, #ffa862 100%);
+    background: black;
     position: relative;
     overflow: hidden;
   }
@@ -5917,7 +6103,12 @@ a {
   .sectiontwo_text .gradient_text {
     text-transform: capitalize;
 
-    background: linear-gradient(95.04deg, #c892ff 30.3%, #6ddda7 63.89%, #ffb775 100.96%);
+    background: linear-gradient(
+      95.04deg,
+      #c892ff 30.3%,
+      #6ddda7 63.89%,
+      #ffb775 100.96%
+    );
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -6125,7 +6316,12 @@ a {
   }
 
   .scene__title .gradient_text {
-    background: linear-gradient(95.04deg, #c892ff 30.3%, #6ddda7 63.89%, #ffb775 100.96%);
+    background: linear-gradient(
+      95.04deg,
+      #c892ff 30.3%,
+      #6ddda7 63.89%,
+      #ffb775 100.96%
+    );
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -6180,7 +6376,14 @@ a {
   .container_cards {
     /* width: 100%; */
     /* height: 85%; */
-    background: linear-gradient(105.18deg, rgba(253, 178, 113, 0.65) 0%, rgba(254, 158, 161, 0.65) 38.54%, rgba(255, 189, 129, 0.65) 66.15%, rgba(255, 168, 98, 0.65) 100%), #ffffff;
+    background: linear-gradient(
+        105.18deg,
+        rgba(253, 178, 113, 0.65) 0%,
+        rgba(254, 158, 161, 0.65) 38.54%,
+        rgba(255, 189, 129, 0.65) 66.15%,
+        rgba(255, 168, 98, 0.65) 100%
+      ),
+      #ffffff;
     padding: 80px 160px 80px 160px;
     display: flex;
     flex-direction: column;
@@ -6468,7 +6671,7 @@ a {
 
 @media (min-width: 1920px) {
   .sectionOne {
-    background: linear-gradient(105.18deg, #fdb271 0%, #fe9ea1 78.54%, #ffbd81 90%, #ffa862 100%);
+    background: black;
   }
   .logo svg {
     animation: logoImg 0.8s cubic-bezier(0.8, 0, 0.12, 0.99);
@@ -6674,6 +6877,18 @@ a {
     display: none !important;
   }
 
+  .img_header {
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .img_header img {
+    width: 100%;
+  }
+
   .mainHeader {
     font-family: poppins;
     font-size: 15px;
@@ -6848,7 +7063,7 @@ a {
     /* background-image: url(https://wallpapercave.com/wp/wp7623952.jpg);
     background-size: cover;
     background-color: rgb(20, 20, 20); */
-    background: linear-gradient(105.18deg, #fdb271 0%, #fe9ea1 78.54%, #ffbd81 90%, #ffa862 100%);
+    background: black;
     position: relative;
     overflow: hidden;
   }
@@ -7071,7 +7286,12 @@ a {
   .sectiontwo_text .gradient_text {
     text-transform: capitalize;
 
-    background: linear-gradient(95.04deg, #c892ff 30.3%, #6ddda7 63.89%, #ffb775 100.96%);
+    background: linear-gradient(
+      95.04deg,
+      #c892ff 30.3%,
+      #6ddda7 63.89%,
+      #ffb775 100.96%
+    );
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -7254,7 +7474,12 @@ a {
   }
 
   .scene__title .gradient_text {
-    background: linear-gradient(95.04deg, #c892ff 30.3%, #6ddda7 63.89%, #ffb775 100.96%);
+    background: linear-gradient(
+      95.04deg,
+      #c892ff 30.3%,
+      #6ddda7 63.89%,
+      #ffb775 100.96%
+    );
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -7322,7 +7547,14 @@ a {
 
   .container_cards {
     height: auto;
-    background: linear-gradient(105.18deg, rgba(253, 178, 113, 0.65) 0%, rgba(254, 158, 161, 0.65) 38.54%, rgba(255, 189, 129, 0.65) 66.15%, rgba(255, 168, 98, 0.65) 100%), #ffffff;
+    background: linear-gradient(
+        105.18deg,
+        rgba(253, 178, 113, 0.65) 0%,
+        rgba(254, 158, 161, 0.65) 38.54%,
+        rgba(255, 189, 129, 0.65) 66.15%,
+        rgba(255, 168, 98, 0.65) 100%
+      ),
+      #ffffff;
     padding: 20px;
   }
 
@@ -7952,7 +8184,12 @@ a {
 }
 
 .gradient_form {
-  background: linear-gradient(78.12deg, #ae67ec 9.91%, #f77ea2 51.73%, #fabba4 87.87%);
+  background: linear-gradient(
+    78.12deg,
+    #ae67ec 9.91%,
+    #f77ea2 51.73%,
+    #fabba4 87.87%
+  );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -8097,5 +8334,3 @@ select.select_arrow:focus {
 .mb_0 {
   margin-bottom: 0 !important;
 }
-
-
