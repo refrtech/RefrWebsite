@@ -558,7 +558,7 @@ header {
   .refr_platform {
     font-size: 0.9rem !important;
     padding: 26px 0;
-    max-width: 300px;
+    max-width: 100%;
   }
   .center_div {
     display: flex;
